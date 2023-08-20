@@ -76,7 +76,7 @@ public class DefaultDriver
       }
       else
       {
-          for (int i = 1; i <= 3; i++)
+          for (int i = 1; i <= 2; i++)
           {
               x += 1;
               
@@ -108,7 +108,7 @@ public class DefaultDriver
                   }
               }
           }
-          if (x == 3)
+          if (x == 2)
               System.out.println("Account locked");
           else if (x == 5)
               System.out.print("Logging out");
