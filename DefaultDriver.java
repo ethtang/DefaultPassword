@@ -61,7 +61,7 @@ public class DefaultDriver
                 
       if (user.equals(userName) && pass.equals(password))
       {
-          System.out.println("Would you like to change you password?");
+          System.out.println("Would you like to change your password?");
           String reply = input.nextLine();
           if (reply.equals("Yes"))
           {
