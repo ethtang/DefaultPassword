@@ -65,8 +65,6 @@ public class DefaultDriver
           String reply = input.nextLine();
           if (reply.equals("Yes"))
           {
-              System.out.print("Enter username: ");
-              userName = input.nextLine();
               System.out.print("Enter new password: ");
               password = input.nextLine();
               System.out.print("Password set");
@@ -94,8 +92,6 @@ public class DefaultDriver
                   String reply = input.nextLine();
                   if (reply.equals("Yes"))
                   {
-                      System.out.print("Enter username: ");
-                      userName = input.nextLine();
                       System.out.print("Enter new password: ");
                       password = input.nextLine();
                       x = 9;
