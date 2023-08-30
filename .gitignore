@@ -1,3 +1,5 @@
 # ignore all .txt files
 # do not have .txt extension on .gitignore file!
 *.txt
+*.class
+.DS_Store
